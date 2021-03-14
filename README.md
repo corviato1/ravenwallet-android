@@ -1,27 +1,21 @@
-![ƀ](./images/header.png) 
 RVN Wallet for Android
 ----------------------------------
 
-[![Get it on Google Play](./images/icon-google-play.png)](https://play.google.com/store/apps/details?id=com.ravenwallet)
-
 ### A completely standalone Ravencoin wallet
 
-Unlike many other wallets, This wallet is a real standalone Ravencoin client. There is no server to get hacked or go down, so you can always access your money. Using [SPV](https://en.bitcoin.it/wiki/Thin_Client_Security#Header-Only_Clients) mode, This wallet connects directly to the Ravencoin network with the fast performance you need on a mobile device.
+Uses [SPV](https://en.bitcoin.it/wiki/Thin_Client_Security#Header-Only_Clients) mode, This wallet connects directly to the Ravencoin network with the fast performance you need on a mobile device.
 
-### The next step in wallet security
-
-This wallet is designed to protect you from malware, browser security holes. With AES hardware encryption, app sandboxing, and verified boot, it represents a significant security advance over web and desktop wallets.
 
 ### beautiful simplicity
 
-Simplicity is the RVN wallet core design principle. A simple list of 12 words is all you need to restore your wallet on another device if yours is ever lost or broken.  Because it is [deterministic](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki), your balance and transaction history can be recovered from just your backup words. These words are now compatible with the Ravencoin core wallet available [here](https://github.com/RavenProject/Ravencoin/releases/latest).
+Features 12 word seed recovery.  See vid here on how seed word recovery works)
+Do not store your 12 word seed on ANY digital device.
+Because it is [deterministic](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki), 
+12 word seed recovery is compatible with Ravencoin qt wallet.[here](https://github.com/RavenProject/Ravencoin/releases/latest).
 
 ## features
 
 - ["simplified payment verification"](https://github.com/bitcoin/bips/blob/master/bip-0037.mediawiki) for fast mobile performance
-- no server to get hacked or go down
-- 12 word backup that works forever
-- private keys never leave your device
 - import [password protected](https://github.com/bitcoin/bips/blob/master/bip-0038.mediawiki) paper wallets
 - ["payment protocol"](https://github.com/bitcoin/bips/blob/master/bip-0070.mediawiki) payee identity certification
 
@@ -66,3 +60,5 @@ Simplicity is the RVN wallet core design principle. A simple list of 12 words is
 
 ## Android Basics
 An basic tutorial for understanding how to use Android Studio can be found [here](https://developer.android.com/training/basics/firstapp)
+
+
